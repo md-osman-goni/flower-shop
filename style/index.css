@@ -77,6 +77,7 @@ body {
 .three-pink-flower {
     display: flex;
     margin: 0 130px 120px;
+    justify-content: space-between;
 
 }
 
@@ -141,11 +142,13 @@ body {
     padding: 80px;
     margin: 100px 150px;
     gap: 100px;
-    
+    justify-content: space-between;
+
 }
 
 .icon-text-div {
     text-align: center;
+
 }
 
 .icon {}
@@ -158,3 +161,46 @@ body {
 }
 
 /* icon related styles end */
+
+/* hot deal section start */
+.hot-deal-section {}
+
+.hot-deal {
+    display: flex;
+    background-color: #FEF6F8;
+    padding: 50px 200px;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.hot-deal-content {
+    max-width: 600px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.hot-deal-heading {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.hot-deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.off{
+    color: #E55473;
+}
+
+.hot-deal-image {
+    width: 318px;
+    height: 420px;
+    flex-shrink: 0;
+}
+
+/* hot deal section end */
