@@ -130,3 +130,31 @@ body {
     font-weight: 700;
     line-height: 35px;
 }
+
+/* three flower related styles start */
+
+
+/* icon related styles start */
+.icon-section {
+    display: flex;
+    background-color: #F4F4F4;
+    padding: 80px;
+    margin: 100px 150px;
+    gap: 100px;
+    
+}
+
+.icon-text-div {
+    text-align: center;
+}
+
+.icon {}
+
+.icon-text {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+/* icon related styles end */
