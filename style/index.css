@@ -202,5 +202,23 @@ body {
     height: 420px;
     flex-shrink: 0;
 }
-
 /* hot deal section end */
+
+/* instagram section related style start */
+.instagram{
+    text-align:center;
+    margin: 50px 380px 20px;
+}
+.instagram-heading{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.instagram-description{
+    
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+/* instagram section related style end */
