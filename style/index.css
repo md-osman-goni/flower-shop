@@ -71,19 +71,62 @@ body {
     font-size: 18px;
 }
 
-.three-flower {
+/* featured related styles end */
+
+/* three flower related styles start */
+.three-pink-flower {
     display: flex;
+    margin: 0 130px 120px;
+
 }
 
-.pink-flower {
+.flower-text-div {
+    margin-right: 20px;
+}
+
+.pink-one {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 350px;
+    height: 538px;
+}
+
+.pink-one>img {
+    margin: 110px 100px 0 0;
+    width: 310px;
+    height: 428px;
+}
+
+.pink-two {
+    border-radius: 300px 300px 0px 0px;
+    background-color: #DAEFF1;
+    width: 350px;
+    height: 538px;
+}
+
+.pink-two>img {
+    margin: 100px 70px 0 50px;
+    width: 290px;
+    height: 370px;
+}
+
+.pink-three {
+    border-radius: 300px 300px 0px 0px;
+    background-color: #E3ECDB;
+    width: 350px;
+    height: 538px;
+}
+
+.pink-three>img {
+    margin: 66px 70px 0 20px;
+    width: 314px;
+    height: 471px;
+}
+
+.pink-text {
     text-align: center;
-}
-
-.images {
-    display: flex;
-
-}
-
-.images>p {
-    margin: 20px;
+    color: #272727;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 35px;
 }
