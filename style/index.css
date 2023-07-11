@@ -41,7 +41,7 @@ nav>ul {
 
 nav li {
     list-style: none;
-    margin-right: 50px;
+    margin-right: 30px;
 }
 
 nav a {
@@ -49,6 +49,30 @@ nav a {
     color: white;
     font-weight: bold;
     font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+}
+.dropdown-container{
+    display: inline;
+    position: relative;
+}
+.dropdown-content{
+    position: absolute;
+    top: 30px;
+    right: 0;
+    background-color: black;
+    text-align: left;
+    min-width: 100px;
+    display: none;
+}
+.dropdown-content a{
+    display: block;
+}
+.dropdown-container:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: gray;
 }
 
 /* nav related style end */
