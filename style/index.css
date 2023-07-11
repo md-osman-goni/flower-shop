@@ -14,29 +14,23 @@ body {
     margin-top: 20px;
 }
 
-/* banner related styles */
+/* banner related styles start */
 .banner {
     display: flex;
     background-color: rgba(229, 84, 115, 0.10);
-    padding: 0 200px;
-    gap: 40px;
+    justify-content:space-between;
+    gap: 50px;
     
 }
-.banner-text{
-    width: 50%;
-    text-align: left;
-    padding: 0;
-}
-#banner-btn{
-    /* margin-bottom: 150px; */
-}
-.banner-image{
-    width: 50%;
-    text-align: right;
-    padding-top: 50px;
-    
-}
+.banner-content{
+   max-width: 600px;
+   margin: 150px 0 140px 150px;
 
+}
+.profile-pic{
+   max-width: 400px;
+   margin: 50px 80px 0 0 ;
+}
 
 .banner-title {
     color: #272727;
@@ -56,8 +50,21 @@ body {
     margin-top: 180px;
 }
 .featured-title{
-    
+
 }
 .featured-description{
 
+}
+.three-flower{
+    display: flex;
+}
+.pink-flower{
+    text-align: center;
+}
+.images{
+    display: flex;
+
+}
+.images >p{
+    margin: 20px;
 }
